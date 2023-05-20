@@ -28,6 +28,8 @@ yarn.lock
 /.next/
 
 # Terraform files
-terraform/
+.terraform/
+.aws/
+*.tfstate*
 
 .github/
