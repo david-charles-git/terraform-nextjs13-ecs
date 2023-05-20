@@ -1,0 +1,50 @@
+# Ignore development-only files and directories
+node_modules/
+.dockerignore
+.git/
+.gitignore
+npm-debug.log
+yarn-error.log
+
+# Ignore Next.js build artifacts
+.next/
+out/
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore log files
+logs/
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore Docker-specific files and directories
+Dockerfile
+.dockerignore
+.dockerignore.example
+docker-compose.yml
+docker-compose.yaml
+
+# Ignore temporary and cache files
+*.log
+*.gz
+*.tar
+*.zip
+
+# Ignore miscellaneous files and directories
+*.DS_Store
+Thumbs.db
+
+# Terraform files
+terraform/
+
+# github workflows
+.guthub/
